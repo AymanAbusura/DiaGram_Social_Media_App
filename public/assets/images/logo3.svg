@@ -1,0 +1,17 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 171 36" width="171" height="36">
+	<title>logo-svg</title>
+	<defs>
+		<image  width="1" height="1" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAAXNSR0IB2cksfwAAAANQTFRF////p8QbyAAAAAF0Uk5TATfh6PAAAAAKSURBVHicY2AAAAACAAFIr6RxAAAAAElFTkSuQmCC"/>
+		<image  width="28" height="24" id="img2" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAYCAMAAADeQm2wAAAAAXNSR0IB2cksfwAAAX1QTFRFAAAATyV2YS2RZC+VaTKdajKfYS6SUSZ5XSyLaDGcajKfaTGdZzCaaDGcXiyMXCuLaDGcaTGdYC2PRSBnAAAAKyKfICAgXy2OaDGcXSyKYy6UYC2RNy+tOCzWNCfYMSThYy+UJhI4ZTCXaDGcWyuJpaWlMCXAOTC2NCbmMSXPJxI6ZTCYajKeaDGcVSh/TEaVMSTcNCq5OSzYMyXkMyjGQ0NDajKfajKftLS0f39/OCveMyP6NSnGNCXvMybYNCjPW1tbJx+JNCXpMyTyNCfeMyTyNCXsMyT2MybVNCnI4+PjNS+DMyTtMyP/MyT4MyP4MiToMifINSrANCXvMyP9NCXwMyfHMii9OjZoNCbWMiPwMyP+NCbtNSjbMim1ZTCYXCuKMSTXMyTqMiPvMyP3MyT0MiXZNCjEYy6UYC2PNinaMiXQNCjBJCQkYC2QXiyNaTGdXy2QRiFpLCwsKCJpXy2OXi2NXCuKZzGbZjCZZjCYUCV4Yi6TZC+WTyV2L2xEGAAAAH90Uk5TABR2tsbGdhQ35v/++uU3IOr1Yg8CDgVi6R9tcBZ8PUJsA53rHwLSLX9iAwam5BgK6ngcxHoABqYAASz9pa/HhQIBXLiF7+D4xXMABI3/9fbpr0Bo+/fIXgQXo/73rB6dHxBDZdvyoR5scWrAOgFxH/ZjDwQJYx825f39E3W1E6ynxhgAAAFPSURBVHiclZJrNwJhFIVPGtEbJY0apdAk6SZSSSQSiZGICF1EiiiRGpXfrleRZS3K82mv/Xw662yABhxOD5cgejEEweXx+qBNP5+PBAOfCBAaFAq7kSLRkFg8LCHJEamUbCCRycQUNdqUcjlSKHAYUyoBVKpxAAVCE53lpFpNazQ4TWm106DTzQBoaFqtx5XBaDSZzTjNWixz81brgs1mNpmMBlzZHQ4sF53OJZdrecXtXvV4GtJh71KurXu9Gz7f5pbfvx0I/JA7uwyzFwwy+6HQAcB/JByGwwzDHB1HIiffZOuU02j0jGHOL2Ix+JDNU/TxOJ1IACSTl6nU1XU6fQOQoOm4vqOETAZls60P3d7lcvcADwhlmkU+TxUKj0X8LfLpmSSLpVKBol66kADlSgUJWPYVw7KNJVTK5faIqtVa/Wtg9Vrt7dvA/pa/8Q7OL2NJDjXTPAAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 24px;fill: #fafafa;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+	</style>
+	<use id="logo" href="#img1" x="49" y="20"/>
+	<text id="LifeGram" style="transform: matrix(1,0,0,1,38,25)" >
+		<tspan x="0" y="0" class="t0">L</tspan><tspan  y="0" class="t0">i</tspan><tspan  y="0" class="t0">f</tspan><tspan  y="0" class="t0">e</tspan><tspan  y="0" class="t0">G</tspan><tspan  y="0" class="t0">r</tspan><tspan  y="0" class="t0">a</tspan><tspan  y="0" class="t0">m
+</tspan>
+	</text>
+	<use id="imageedit_21_4196499269" href="#img2" x="6" y="5"/>
+</svg>
