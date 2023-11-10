@@ -26,3 +26,5 @@ If you are developing a production application, we recommend updating the config
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 # LifeGram_Social_Media_App
+
+![image](https://github.com/AymanAbusura/LifeGram_Social_Media_App/assets/113180347/9c5037d1-4759-41af-834e-1466bbe3b8ff)
