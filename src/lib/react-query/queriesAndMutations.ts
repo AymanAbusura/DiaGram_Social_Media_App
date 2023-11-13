@@ -3,6 +3,8 @@ import { createUserAccount, signInAccount, signOutAccount, createPost, getRecent
 import { INewPost, INewUser, IUpdatePost, IUpdateUser } from '@/types';
 import { QUERY_KEYS } from './queryKeys';
 
+// ============================================================ AUTH QUERIES
+
 export const useCreateUserAccount = () => {
     return useMutation({
         mutationFn: (user: INewUser) => createUserAccount(user),
@@ -20,6 +22,8 @@ export const useSignOutAccount = () => {
         mutationFn:  signOutAccount,
     });
 }
+
+// ============================================================ POST QUERIES
 
 export const useCreatePost = () => {
     const queryClient = useQueryClient();
@@ -154,7 +158,7 @@ export const useGetPosts = () => {
 
             return lastId;
         },
-        initialPageParam: null,
+        initialPageParam: null
     })
 }
 
