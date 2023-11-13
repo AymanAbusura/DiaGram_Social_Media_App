@@ -27,6 +27,6 @@ If you are developing a production application, we recommend updating the config
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 # DiaGram_Social_Media_App
 
-![Alt text](side-img1.png)
+![image](https://github.com/AymanAbusura/DiaGram_Social_Media_App/assets/113180347/56cbdbc3-a6bc-41a7-bbdb-a2fcf77ad394)
 
 ![Alt text](image-1.png)
