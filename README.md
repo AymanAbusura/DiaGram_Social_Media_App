@@ -14,4 +14,4 @@ Appwrite's open-source platform lets you add Auth, DBs, Functions and Storage to
 
 ![image](https://github.com/AymanAbusura/DiaGram_Social_Media_App/assets/113180347/56cbdbc3-a6bc-41a7-bbdb-a2fcf77ad394)
 
-![Alt text](3.jpeg)
+![image](https://github.com/AymanAbusura/DiaGram_Social_Media_App/assets/113180347/6520980a-cc70-408b-b9c2-3217060cc8ac)
