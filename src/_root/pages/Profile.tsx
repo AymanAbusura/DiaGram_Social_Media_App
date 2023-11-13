@@ -46,8 +46,9 @@ const Profile = () => {
           />
           <div className="flex flex-col flex-1 justify-between md:mt-2">
             <div className="flex flex-col w-full">
-              <h1 className="text-center xl:text-left h3-bold md:h1-semibold w-full">
-                {currentUser.name}
+              <h1 className="flex gap-1 justify-center text-center xl:text-left xl:justify-start h3-bold md:h1-semibold w-full">
+                {currentUser.name} 
+                <img src="/assets/icons/verify.svg" width={20} height={20} />
               </h1>
               <p className="small-regular md:body-medium text-light-3 text-center xl:text-left">
                 @{currentUser.username}
@@ -57,6 +58,7 @@ const Profile = () => {
             <div className="flex gap-8 mt-10 items-center justify-center xl:justify-start flex-wrap z-20">
               <StatBlock value={currentUser.posts.length} label="Posts" />
               <StatBlock value={20} label="Followers" />
+              {/* <StatBlock value={currentUser.followers.length} label="Followers" /> */}
               <StatBlock value={20} label="Following" />
             </div>
 

@@ -1,0 +1,15 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 171 36" width="171" height="36">
+	<title>logo-svg</title>
+	<defs>
+		<image  width="50" height="30" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAeCAYAAABuUU38AAAAAXNSR0IB2cksfwAABPJJREFUeJzFl+tPU2ccxyvTRBPd1Oz9BJLp2MBEJlBuq8IE5W4pMMul41LLRdpyaAveqEzGoujruS1GZ5O5vXbsD3DOufFiGzN7LfFFQeHNMMDi+O77HB8WlHPoaanySz45p8/v+3yf59ucS2syGajvbHjts1PI//QMLg2fxV0eJ8k/kkkxRkZ4nie0RjxfaV32Ysv5fvSdP4kpAkP0Y5L4xdz13r9agwHUnOvDQwLJHLl1LgA3qRjsh1kgzsXYYB++l5ol/USwH9XrFiAYRMKAD8MDfkAQ9OPxWR+8HN9qYO7WYAA9Yo6cuzgQwJDwfBV7X76RhDMKviUQnFZwNRDAG1H7eLCdc68t87kZrzAAVrCiTnkxTECenvbCu9ZFT3qhCC/pORSrj9bmdcMEulHT5wYkawiBDf1uZCoK3hSf6KVIz0VifRkh/g/i5RMm0IWH/i6AXI09BL+QLlxWfU7gkeJ8FoZj16X3RNCBzS8tiK8Dfb0dAHkUcOrfE04nNvnaYaM+pHTiHvVj5EZvJ2ps8v3Bz7elF/wuZIixvnbsoGZaHe+EL94h1CBiAz0uTPUcBxSX/iXV2440asaFTodxrxOpHhdyeH6bXiPiMluaz54idWGbwZemoRtb6kzu48h3twFkrqND+xHrbkUa+zNS97fHiSueNji629Agzjk2K3szIoyWh78Z29ifV3VO5MY9yIkWXCIgt7REfGxuZO9PqRnvbMFbL2q6WpHI3n2p+V1cglpe7I0KTVcLLsYzyLNNOHC30wF0NqFbq8/xGrXvwKzLgV26Pg1IFBqh7WrSfjqx55Fed2INohuovRFTBO31qNQy62hASPQ7GvF5pIVdjfhC1XKOTr9K7TchvNYgK4I57VggcDYgU8vMeQy/qn07miIt3GZHs9T+otVvtSNL7ddj3kiQaMKYmmuxQPBxnXaQ5jqMiT6PjkiLUtMitfc0g9QiS+3XGg9iNIypyYopAodV+9JqOoqQ6JMrkRak5iuhbbTia62+oxpHVa9qY5dWNKFM9gr8VF8BNFRo3+wN5bCJPpl1VOrf7MesSKLmidDSU/Pnu70SHun1YywbXkWzwVRbhpG6UqCuTPvx60zHJmr+EJqPSnDfVobEFSFKkMT+X6pPKcb1Xnjsjao+pbgQjyDPVXUR8mzFAJmzWbRfiLYjSGV/Rupma4rxZc1hNKvwnGNPZG+69hDe0/KwH8br7M8LHeflRAqiFWbVEt9eVSEmCaoK0KOnqyhEKjXjqk6LAvxWpRNCFDU+qQ0b/W8S1ZtdVPkB+AnI40oLtq8WuvwgbOQGtWPkZxIqOwCrxYKNuvOKsJO6GbFG2UH0GgmhF+TFQM99tpmx5UgeJkryAHLN6EJGi54h6f2AgQ3/jI/qhbhUh7JRXWTGIkFRNpR4hSjKgl/1pHexGVXRzo86iKiCDAwV7gfIU2L4EtAr+vnp86/w/HA/BmP1iTpI0IQEyz7cJBB8kI7ruanYEe3C/PZ3cn5oyYd8I7xjDWIklJY0IS8NQ2SRgEzn74WSsxvbIi0iNNT7yIycu5i7F5+Y4hQipsp+F9bsFEwQSObNKRg1vwMPqczeA7OA51ViLCcFPwjNMv0D0Vu3AMvLsgubM3bDl/E2wjzCENRm7kGvmLve+9coJKQnITc9GRf3JeMOj2GyIAmLsfeTcYHkrNdl9B+RtObb6CqMIQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 24px;fill: #fafafa;font-weight: 400;font-family: "DejaVuSans", "DejaVu Sans" } 
+	</style>
+	<use id="logo" href="#img1" x="0" y="3"/>
+	<text id="LifeGram" style="transform: matrix(1,0,0,1,40,27)" >
+		<tspan x="0" y="0" class="t0">L</tspan><tspan  y="0" class="t0">i</tspan><tspan  y="0" class="t0">f</tspan><tspan  y="0" class="t0">e</tspan><tspan  y="0" class="t0">G</tspan><tspan  y="0" class="t0">r</tspan><tspan  y="0" class="t0">a</tspan><tspan  y="0" class="t0">m
+</tspan>
+	</text>
+</svg>
