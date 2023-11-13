@@ -105,13 +105,6 @@ export const useDeleteSavedPost = () => {
     })
 }
 
-export const useGetCurrentUser = () => {
-    return useQuery({
-        queryKey: [QUERY_KEYS.GET_CURRENT_USER],
-        queryFn: getCurrentUser,
-    })
-}
-
 export const useGetPostById = (postId: string) => {
     return useQuery({
         queryKey: [QUERY_KEYS.GET_POST_BY_ID, postId],
@@ -170,6 +163,23 @@ export const useSearchPosts = (searchTerm: string) => {
     })
 }
 
+export const useGetUserPosts = (userId?: string) => {
+    return useQuery({
+      queryKey: [QUERY_KEYS.GET_USER_POSTS, userId],
+      queryFn: () => getUserPosts(userId),
+      enabled: !!userId,
+    });
+}
+
+// ============================================================ USER QUERIES
+
+export const useGetCurrentUser = () => {
+    return useQuery({
+        queryKey: [QUERY_KEYS.GET_CURRENT_USER],
+        queryFn: getCurrentUser,
+    })
+}
+
 export const useGetUsers = (limit?: number) => {
     return useQuery({
       queryKey: [QUERY_KEYS.GET_USERS],
@@ -197,13 +207,5 @@ export const useUpdateUser = () => {
           queryKey: [QUERY_KEYS.GET_USER_BY_ID, data?.$id],
         });
       },
-    });
-}
-
-export const useGetUserPosts = (userId?: string) => {
-    return useQuery({
-      queryKey: [QUERY_KEYS.GET_USER_POSTS, userId],
-      queryFn: () => getUserPosts(userId),
-      enabled: !!userId,
     });
 }
