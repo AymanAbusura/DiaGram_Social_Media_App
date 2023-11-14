@@ -134,6 +134,10 @@ const SignUpForm = () => {
             Already have an account <Link to="/sign-in" className="text-primary-500 text-small-semibold ml-1">Log in</Link>
           </p>
         </form>
+        <div className="flex justify-center gap-3">
+          <img src='/assets/images/googleplay.png' alt="Googleplay" width={100} height={100} />
+          <img src='/assets/images/appstore.png' alt="Appstore" width={100} height={100} />
+        </div>
       </div>
     </Form>
   )
