@@ -209,3 +209,11 @@ export const useUpdateUser = () => {
       },
     });
 }
+
+// NEW
+// export const useGetMessages = () => {
+//     return useQuery({
+//         queryKey: [QUERY_KEYS.GET_MESSAGES],
+//         queryFn: getMessages,
+//     })
+// }

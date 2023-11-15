@@ -531,3 +531,18 @@ export async function getUserPosts(userId?: string) {
     console.log(error);
   }
 }
+
+// export async function getMessages() {
+//   try {
+//     const response = await databases.listDocuments(
+//       appwriteConfig.databaseId,
+//       appwriteConfig.messagesCollectionId,
+//       // [Query.orderDesc("$createdAt"), Query.limit(20)]
+//     );
+
+//     console.log('RESPONSE:',response);
+    
+//   } catch (error) {
+//     console.log(error);
+//   }
+// }

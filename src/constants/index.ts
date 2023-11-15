@@ -16,7 +16,7 @@ export const sidebarLinks = [
     },
     {
       imgURL: "/assets/icons/message.svg",
-      route: "/saved",
+      route: "/messages",
       label: "Messages",
     },
     {
@@ -39,7 +39,7 @@ export const sidebarLinks = [
     },
     {
       imgURL: "/assets/icons/message.svg",
-      route: "/saved",
+      route: "/messages",
       label: "Messages",
     },
     {
