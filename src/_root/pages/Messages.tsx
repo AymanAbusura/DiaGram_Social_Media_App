@@ -6,11 +6,11 @@ import MessagesList from "@/components/shared/MessagesList";
 const Messages = () => {
   const { data: currentUser } = useGetCurrentUser();
 
-  const savePosts = currentUser?.save
-    .map((savePost: Models.Document) => ({
-      ...savePost.post,
+  const messages = currentUser?.save
+    .map((messages: Models.Document) => ({
+      ...messages.post,
       creator: {
-        imageUrl: currentUser.imageUrl,
+        messages: currentUser.messages,
       },
     }))
     .reverse();
@@ -26,7 +26,7 @@ const Messages = () => {
         <Loader />
       ) : (
         <ul className="w-full flex justify-center max-w-5xl gap-9">
-          {savePosts.length === 0 ? (
+          {messages.length === 0 ? (
             <p className="text-light-4">No available Messages</p>
           ) : (
             <MessagesList />

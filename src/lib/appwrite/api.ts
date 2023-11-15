@@ -398,7 +398,7 @@ export async function getInfinitePosts({ pageParam }: { pageParam: number }) {
   }
 }
 
-// ============================== Search POSTS
+// ============================== SEARCH POSTS
 export async function searchPosts(searchTerm: string) {
   try {
     const posts = await databases.listDocuments(
@@ -532,17 +532,19 @@ export async function getUserPosts(userId?: string) {
   }
 }
 
-// export async function getMessages() {
-//   try {
-//     const response = await databases.listDocuments(
-//       appwriteConfig.databaseId,
-//       appwriteConfig.messagesCollectionId,
-//       // [Query.orderDesc("$createdAt"), Query.limit(20)]
-//     );
+// ============================== SEARCH USERS
+export async function searchUsers(searchTerm: string) {
+  try {
+    const user = await databases.listDocuments(
+      appwriteConfig.databaseId,
+      appwriteConfig.userCollectionId,
+      [Query.search("name", searchTerm)]
+    );
+      
+    if (!user) throw Error;
 
-//     console.log('RESPONSE:',response);
-    
-//   } catch (error) {
-//     console.log(error);
-//   }
-// }
+    return user;
+  } catch (error) {
+    console.log(error);
+  }
+}

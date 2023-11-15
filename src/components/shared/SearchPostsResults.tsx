@@ -1,11 +1,11 @@
 import Loader from './Loader';
 import GridPostList from './GridPostList';
 
-type SearchResultsProps = {
+type SearchPostsResultsProps = {
   isSearchFetching: boolean;
   searchedPosts: any;
 }
-const SearchResults = ({ isSearchFetching, searchedPosts }: SearchResultsProps) => {
+const SearchPostsResults = ({ isSearchFetching, searchedPosts }: SearchPostsResultsProps) => {
   if(isSearchFetching) { 
     return <Loader />
   }
@@ -19,4 +19,4 @@ const SearchResults = ({ isSearchFetching, searchedPosts }: SearchResultsProps) 
   )
 }
 
-export default SearchResults
+export default SearchPostsResults
