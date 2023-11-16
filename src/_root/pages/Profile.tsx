@@ -83,6 +83,11 @@ const Profile = () => {
                 Follow
               </Button>
             </div>
+            <div className={`${user.id === id && "hidden"}`}>
+              <Button type="button" className="shad-button_primary px-8">
+                Message
+              </Button>
+            </div>
           </div>
         </div>
       </div>

@@ -31,7 +31,7 @@ const AllUsers = () => {
   }
   const shouldShowSearchResults = searchValue || '';
   const shouldShowUsers = !shouldShowSearchResults && creators?.documents.every((item) => item.length === 0 );
-
+  
   return (
     <div className="common-container">
       <div className="user-container">
@@ -52,16 +52,16 @@ const AllUsers = () => {
       <div>
         {isPending && !creators ? (
           <Loader />
-        ) : 
-        (
+        ) : (
           <div className='flex flex-wrap gap-9 w-full max-w-5xl'>
             {shouldShowSearchResults ? (
               <SearchUsersResults isSearchFetching={isSearchFetching} searchedUsers={searchedUsers} />
             ) : shouldShowUsers ? (
               <p className='text-light-4 mt-10 text-center w-full'>No more users</p>
-            ) : creators.documents.map((creator) => (
-              <li key={creator.$id} className="flex-1 min-w-[200px] w-full  ">
-                <UserCard user={creator} />
+            ) : 
+            creators.documents.map((creator) => (
+              <li key={creator.$id} className="flex-1 min-w-[200px] w-full">
+                <UserCard user={creator} key={creator.$id}/>
               </li>
             ))}
           </div>

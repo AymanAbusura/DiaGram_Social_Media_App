@@ -14,14 +14,10 @@ const PostDetails = () => {
   const { user } = useUserContext();
 
   const { data: post, isPending } = useGetPostById(id || '');
-  const { data: userPosts, isPending: isUserPostLoading } = useGetUserPosts(
-    post?.creator.$id
-  );
+  const { data: userPosts, isPending: isUserPostLoading } = useGetUserPosts(post?.creator.$id);
   const { mutate: deletePost } = useDeletePost();
 
-  const relatedPosts = userPosts?.documents.filter(
-    (userPost) => userPost.$id !== id
-  );
+  const relatedPosts = userPosts?.documents.filter((userPost) => userPost.$id !== id);
 
   const handleDeletePost = () => {
     deletePost({ postId: id || '', imageId: post?.imageId });
