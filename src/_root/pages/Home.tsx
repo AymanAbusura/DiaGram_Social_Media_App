@@ -1,5 +1,6 @@
 import Loader from "@/components/shared/Loader";
 import PostCard from "@/components/shared/PostCard";
+import StoryList from "@/components/shared/StoryList";
 import UserCard from "@/components/shared/UserCard";
 import { useGetRecentPosts, useGetUsers } from "@/lib/react-query/queriesAndMutations";
 import { Models } from "appwrite";
@@ -25,6 +26,10 @@ const Home = () => {
     <div className="flex flex-1">
       <div className="home-container">
         <div className="home-posts">
+          <div className='max-w-screen-sm flex flex-row items-center w-full gap-6 md:gap-9 overflow-x-scroll'>
+            <StoryList />
+          </div>
+          <hr className="border w-full border-dark-4/80" />
           <h2 className="h3-bold md:h2-bold text-left w-full">Home Feed</h2>
           {isPostLoading && !posts ? (
             <Loader />

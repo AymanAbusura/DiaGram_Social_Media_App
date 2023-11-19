@@ -1,0 +1,11 @@
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+.react-horizontal-scrolling-menu--scroll-container { 
+  /* IE and Edge */
+  -ms-overflow-style: none;
+  /* Firefox */
+  scrollbar-width: none;
+  }
+  
