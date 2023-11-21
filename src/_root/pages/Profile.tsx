@@ -42,7 +42,7 @@ const Profile = () => {
             <div className="flex flex-col w-full">
               <h1 className="flex gap-1 justify-center text-center xl:text-left xl:justify-start h3-bold md:h1-semibold w-full">
                 {currentUser.name} 
-                <img src="/assets/icons/verify.svg" width={20} height={20} />
+                <img src={currentUser.status ||"/assets/icons/verify.svg"} width={20} height={20} />
               </h1>
               <p className="small-regular md:body-medium text-light-3 text-center xl:text-left">
                 @{currentUser.username}

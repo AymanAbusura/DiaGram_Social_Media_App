@@ -37,6 +37,12 @@ const StoryList = () => {
     const { disableScroll, enableScroll } = usePreventBodyScroll();
   return (
     <div className='flex gap-1 w-1'>
+        <div onMouseEnter={disableScroll} onMouseLeave={enableScroll} style={{position:'relative'}}>
+            <ScrollMenu onWheel={onWheel}>
+                <img src='/assets/icons/plus.svg' alt='add stories' width={20} height={20} style={{position:'absolute', bottom:'5%', right:'10%', backgroundColor:'white', borderRadius:'50%', borderWidth:'2%'}} />
+                    <StoryCard itemId={''} />
+            </ScrollMenu>
+        </div>
         <div onMouseEnter={disableScroll} onMouseLeave={enableScroll}>
             <ScrollMenu onWheel={onWheel}>
                 {items.map(({ id }) => (
