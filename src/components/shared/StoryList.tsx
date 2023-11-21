@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ScrollMenu, VisibilityContext } from 'react-horizontal-scrolling-menu';
 import 'react-horizontal-scrolling-menu/dist/styles.css';
 
-import '@/scrollbar.css'
+import '@/other.css'
 import { StoryCard } from './StoryCard';
 import usePreventBodyScroll from '@/hooks/usePreventBodyScroll';
 
@@ -40,7 +40,7 @@ const StoryList = () => {
         <div onMouseEnter={disableScroll} onMouseLeave={enableScroll} style={{position:'relative'}}>
             <ScrollMenu onWheel={onWheel}>
                 <img src='/assets/icons/plus.svg' alt='add stories' width={20} height={20} style={{position:'absolute', bottom:'5%', right:'10%', backgroundColor:'white', borderRadius:'50%', borderWidth:'2%'}} />
-                    <StoryCard itemId={''} />
+                <StoryCard itemId={''} />
             </ScrollMenu>
         </div>
         <div onMouseEnter={disableScroll} onMouseLeave={enableScroll}>

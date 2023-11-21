@@ -7,6 +7,8 @@ import Loader from "@/components/shared/Loader";
 import { Button } from "@/components/ui/button";
 import GridPostList from "@/components/shared/GridPostList";
 
+import '@/other.css'
+
 interface StabBlockProps {
   value: string | number;
   label: string;
@@ -37,7 +39,10 @@ const Profile = () => {
     <div className="profile-container">
       <div className="profile-inner_container">
         <div className="flex xl:flex-row flex-col max-xl:items-center flex-1 gap-7">
-          <img src={currentUser.imageUrl || "/assets/icons/profile-placeholder.svg"} alt="profile" className="w-28 h-28 lg:h-36 lg:w-36 rounded-full" />
+          <div style={{position:'relative'}}>
+            <img src={currentUser.imageUrl || "/assets/icons/profile-placeholder.svg"} alt="profile" className="w-28 h-28 lg:h-36 lg:w-36 rounded-full" />
+            <img src='/assets/icons/plus.svg' alt='add stories' width={24} height={24} className="plus" />
+          </div>
           <div className="flex flex-col flex-1 justify-between md:mt-2">
             <div className="flex flex-col w-full">
               <h1 className="flex gap-1 justify-center text-center xl:text-left xl:justify-start h3-bold md:h1-semibold w-full">

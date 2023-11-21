@@ -1,0 +1,39 @@
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+.react-horizontal-scrolling-menu--scroll-container { 
+  /* IE and Edge */
+  -ms-overflow-style: none;
+  /* Firefox */
+  scrollbar-width: none;
+  }
+.plus{
+  position: absolute; 
+  bottom: 25%;
+  right: 10%;
+  background-Color: white;
+  border-radius: 50%;
+  border-width: 2%;
+}
+@media (max-width: 768px) {
+  .plus {
+    position: absolute; 
+    bottom: 0%;
+    right: 10%;
+    background-Color: white;
+    border-radius: 50%;
+    border-width: 2%;
+  }
+}
+@media (max-width: 1024px) {
+  .plus {
+    position: absolute; 
+    bottom: 5%;
+    right: 10%;
+    background-Color: white;
+    border-radius: 50%;
+    border-width: 2%;
+  }
+}
+  
