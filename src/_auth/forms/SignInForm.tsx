@@ -13,6 +13,7 @@ import { SignInValidation } from "@/lib/validation"
 import { useSignInAccount } from "@/lib/react-query/queriesAndMutations"
 
 import { useUserContext } from "@/context/AuthContext"
+// import LightMode from "@/components/shared/LightMode"
 
 const SignInForm = () => {
   const { toast } = useToast();
@@ -103,6 +104,7 @@ const SignInForm = () => {
           <img src='/assets/images/appstore.png' alt="Appstore" width={100} height={100} />
         </div>
       </div>
+      {/* <LightMode /> */}
     </Form>
   )
 }

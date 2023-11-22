@@ -1,3 +1,4 @@
+// FOR SCROLLBAR
 ::-webkit-scrollbar {
     display: none;
   }
@@ -8,6 +9,8 @@
   /* Firefox */
   scrollbar-width: none;
   }
+
+// FOR ADDING STORIES
 .plus{
   position: absolute; 
   bottom: 25%;

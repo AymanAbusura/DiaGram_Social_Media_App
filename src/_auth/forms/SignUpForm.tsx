@@ -12,6 +12,7 @@ import { z } from "zod"
 import Loader from "@/components/shared/Loader"
 import { useCreateUserAccount, useSignInAccount } from "@/lib/react-query/queriesAndMutations"
 import { useUserContext } from "@/context/AuthContext"
+// import LightMode from "@/components/shared/LightMode"
 
 const SignUpForm = () => {
   const { toast } = useToast();
@@ -138,6 +139,7 @@ const SignUpForm = () => {
           <img src='/assets/images/googleplay.png' alt="Googleplay" width={100} height={100} />
           <img src='/assets/images/appstore.png' alt="Appstore" width={100} height={100} />
         </div>
+          {/* <LightMode /> */}
       </div>
     </Form>
   )
