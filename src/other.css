@@ -11,14 +11,14 @@
   }
 
 // FOR ADDING STORIES
-.plus{
+/* .plus{
   position: absolute; 
   bottom: 25%;
   right: 10%;
   background-Color: white;
   border-radius: 50%;
   border-width: 2%;
-}
+} */
 @media (max-width: 768px) {
   .plus {
     position: absolute; 
@@ -37,6 +37,16 @@
     background-Color: white;
     border-radius: 50%;
     border-width: 2%;
+  }
+}
+@media (min-width: 1440px) {
+  .plus {
+    position: absolute; 
+  bottom: 25%;
+  right: 10%;
+  background-Color: white;
+  border-radius: 50%;
+  border-width: 2%;
   }
 }
   
